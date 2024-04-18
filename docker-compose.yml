@@ -6,6 +6,7 @@ services:
       - TZ=Asia/Shanghai
     ports:
       - "1880:1880"
+    user: "1000:1000"
     networks:
       - node-red-net
     volumes:

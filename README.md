@@ -25,7 +25,7 @@ vim data/settings.js
 ```
 
 ```json
-// 打开node-red-data/settings.js 文件，改成
+// 打开data/settings.js 文件，改成
 ...
     adminAuth: {
         type: "credentials",

@@ -1,7 +1,7 @@
 # node-red 的docker启动包
 
 
-配置文件在./node-red-data/settings.js
+配置文件在./data/settings.js
 
 
 首先 更改一个password
@@ -21,7 +21,7 @@ node-red-admin hash-pw
 # 退出容器
 
 #退出到宿主机后 修改settings.js
-vim node-red-data/settings.js
+vim data/settings.js
 ```
 
 ```json

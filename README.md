@@ -8,9 +8,9 @@
 ```bash
 git clone https://github.com/kerwin-cn/docker-node-red.git
 cd docker-node-red
-vim node-red-data/settings.js
 # 启动容器
 docker-compose up -d
+
 # 进入容器
 docker-compose exec node-red bash
 ```
@@ -18,6 +18,10 @@ docker-compose exec node-red bash
 ```bash
 node-red-admin hash-pw
 # 输入自己的密码得到一串。。。。。"$2b$08$5LHg...."
+# 退出容器
+
+#退出到宿主机后 修改settings.js
+vim node-red-data/settings.js
 ```
 
 ```json

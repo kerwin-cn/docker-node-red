@@ -1,7 +1,8 @@
 # node-red 的docker启动包
 
+### 主要为了一键启动，并升级node环境,安装node v18，方便新开发的插件的兼容性
 
-配置文件在./data/settings.js
+## 配置文件在./data/settings.js
 
 
 首先 更改一个password
@@ -45,3 +46,9 @@ vim data/settings.js
 # 重启docker
 docker-compose restart # 访问 http://host:1880
 ```
+
+
+-----
+
+## 注意：
+### 开放了1880-1890的所有端口 用于有的应用启动server，需要对外暴露端口
